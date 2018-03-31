@@ -13,9 +13,12 @@
 
 Веб-приложение, позволяющее искать объявления о вакансиях в постах друзей и друзей-друзей в Facebook и выводящее их в хронологическом порядке.
 
-**Доступ к данным с Facebook**
+**Доступ к данным с VK**
 
-Инициализация происходит через аккаут Facebook.
+Инициализация происходит через аккаут ~~Facebook~~ VK
+*upd API Facebook не позволяет выгружать список друзей* 
+
+
 
 **Фильтры**
 
@@ -62,15 +65,5 @@
 
 ## 2. Описание API
 
-При разработке программы используется API Facebook.
-
-ID нашего приложения Facebook: **157819754881424**
-Маркер доступа Graph API Explorer:
-EAACEdEose0cBAMZAnl8YfE2qurjaLDxj0g3RVO1u8YXZCLZCAvH6171BZClHZAlAcEFMQY4FavAHWgZBswhvZCf94vWAryFCpQPhK4IxOMRfq0gBNzyZBiGZCMf3oUf4ZCHRD5ouCdZAK9gAxfpZBDcbZA4MUL256vpEIoMi7fW4ZAvWLk6PAZB8EWRGJaQu1l1ZBk5ZCRsQZD
-
-![default](https://user-images.githubusercontent.com/36489312/37243166-3bb7ce18-2486-11e8-8971-8cc9242fe86a.JPG)
-
-
-Описания, как извлекать данные с использованием Python, я планирую поискать в следующих статьях:
-https://towardsdatascience.com/how-to-use-facebook-graph-api-and-extract-data-using-python-1839e19d6999
+При разработке программы используется API VK.
 

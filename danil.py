@@ -1,6 +1,7 @@
 from openpyxl import load_workbook
 from find_job_posts import find_job_posts
 
+
 def read_excel_posts(filename):
     work_book = load_workbook(filename)
     work_sheet = work_book['Лист1']
@@ -20,6 +21,10 @@ test_posts = read_excel_posts('Тестовые посты.xlsx')
 keywords_file_1 = 'Ключевые слова.xlsx'
 
 find_job_posts(test_posts, keywords_file_1)
+
+
+
+
 
 
     # post = row['post']
